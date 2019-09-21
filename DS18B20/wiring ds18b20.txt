@@ -1,0 +1,5 @@
+IRED is Vcc = 5v input to sensor
+YELLOW is Signal = digital output from sensor
+BLACK = Ground
+and you need to add 4.7k ohm resistor between Vdd and Signal.
+And also give a minimum delay of 25ms between taking Signal input from the sensor.
